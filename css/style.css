@@ -81,24 +81,53 @@ header h1{
     box-shadow: 1px 1px 15px 2px gray;
 }
 
-#resp{
+#resp_box{
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 500px;
     height: auto;
-    text-align: left;
+    text-align: center;
     padding-top: 110px;
     padding-left: 10px;
     padding-right: 10px;
 }
-#resp h2{
+#resp_box h2{
+    text-align: left;
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 10px;
 }
-#resp p{
+#resp_box p{
     font-size: 15px;
     padding-bottom: 5px;
     padding-left: 15px;
-    color: #5c5c5c;
+    color: #686868;
+}
+
+#resp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+#icons{
+    padding-left: 330px;
+}
+
+#resp_box .check p{
+    text-decoration: line-through;
+    font-style: italic;
+    color: #5d4b89;
+}
+
+#done{
+    color: green;
+}
+#delete{
+    color: red;
+}
+#done,
+#delete{
+    cursor: pointer;
 }
