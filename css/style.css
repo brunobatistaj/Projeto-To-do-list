@@ -73,7 +73,7 @@ header h1{
 
 #resp_area{
     width: 500px;
-    height: 33vw;
+    height: auto;
     background-color: #f7f7ff;
     margin: -20px auto;
     border-bottom-left-radius: 25px;
@@ -88,20 +88,31 @@ header h1{
     height: auto;
     text-align: center;
     padding-top: 110px;
-    padding-left: 10px;
-    padding-right: 10px;
+
 }
 #resp_box h2{
     text-align: left;
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 10px;
+    padding-left: 10px;
+
 }
 #resp_box p{
     font-size: 15px;
     padding-bottom: 5px;
     padding-left: 15px;
     color: #686868;
+    text-align: left;
+    word-wrap: break-word;
+}
+/*checklist*/
+#resp_box .check p{
+    text-decoration: line-through;
+    font-style: italic;
+    color: #5d4b89;
+    text-align: left;
+    word-wrap: break-word;
 }
 
 #resp{
@@ -109,16 +120,15 @@ header h1{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
 }
 
+
+
+/*icons*/
 #icons{
-    padding-left: 330px;
-}
-
-#resp_box .check p{
-    text-decoration: line-through;
-    font-style: italic;
-    color: #5d4b89;
+    text-align: right;
 }
 
 #done{
