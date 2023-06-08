@@ -110,12 +110,21 @@ header h1{
 #resp_box .check p{
     text-decoration: line-through;
     font-style: italic;
-    color: #5d4b89;
+    color: white;
     text-align: left;
     word-wrap: break-word;
+    font-weight: bold;
+}
+.check{
+    background-color: #5d4b89;
+}
+.check #done,
+.check #delete{
+    color: #f7f7ff;
 }
 
-#resp{
+
+.resp{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
